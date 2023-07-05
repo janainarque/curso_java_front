@@ -1,22 +1,32 @@
+body{
+    background-color: #000;
+}
+
 .container{
     width: 100%; 
 }
 
 .nav-bar{
-    background-color: #0080ff;
+    background-color: #66646475;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    height: 120px;
+    height: 80px;
     width: 100%;
 }
 
-.nav-bar .logo img{
-    width: 150px;
+.nav-bar .logo{
+    color: #FFF;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family:'Courier New',monospace;
+    text-shadow: 1px 5px 4px #e1dddd;
+    
+    /* width: 150px;
     display: flex;
     align-items: center;
-    margin-left: 15px;
+    margin-left: 15px; */
 }
 
 .nav-bar .links_paginas ul{
@@ -26,17 +36,17 @@
     list-style: none;
 }
 
-.nav-bar ul li a{
+/* .nav-bar ul li a{
     padding: 20px; 
     color: #FFF;
     text-decoration: none;
-}
+} */
 
-.nav-bar ul li a:hover{
+/* .nav-bar ul li a:hover{
     color: #000;
     font-size: 20px;
     text-shadow: 1px 5px 10px #000;
-}
+} */
 
 /* .banner{
     display: flex;
@@ -85,7 +95,3 @@ footer{
     text-align: center;
 }
 
-body{
-    margin: 0;
-    padding: 0;
-}
