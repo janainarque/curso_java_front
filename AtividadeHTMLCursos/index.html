@@ -2,7 +2,7 @@
 <html LANG="pt-br">
 
 <head>
-    <meta chartset="UTF-8">
+    <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CURSOS</title>
@@ -23,7 +23,7 @@
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#carrossel-cursos">Cursos</a></li>
-        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#sobre">Sobre nós</a></li>
         <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
@@ -55,11 +55,12 @@
               <li data-target="#carousel" data-slide-to="1"></li>
               <li data-target="#carousel" data-slide-to="2"></li>
               <li data-target="#carousel" data-slide-to="3"></li>
+              <li data-target="#carousel" data-slide-to="4"></li>
           </ol>
       
           <div class="carousel-inner">
               <div class="carousel-item active">
-                  <h5 class="contador"> 1 / 4 <h5>
+                  <h5 class="contador"> 1 / 5 <h5>
                   <img src="imagens/curso_java.jpg">
                   <div class="titulo">
                       <h2> Curso de Java </h2>
@@ -68,32 +69,41 @@
               </div>
       
               <div class="carousel-item">
-                  <h5 class="contador"> 2 / 4 <h5>
-                  <img src="imagens/python.jpg">
+                  <h5 class="contador"> 2 / 5 <h5>
+                  <img src="imagens/mobile.jpg">
                   <div class="titulo">
-                      <h2> Curso de Python </h2>
+                      <h2> Curso de Mobile </h2>
                       <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                   </div>
               </div>
       
               <div class="carousel-item">
-                  <h5 class="contador"> 3 / 4 <h5>
-                  <img src="https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+                  <h5 class="contador"> 3 / 5 <h5>
+                  <img src="imagens/publicidade.jpg">
                   <div class="titulo">
-                      <h2> Imagem 3 </h2>
+                      <h2> Curso de Publicidade e Propaganda </h2>
                       <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                   </div>
               </div>
         
       
               <div class="carousel-item">
-                  <h5 class="contador"> 4 / 4 <h5>
-                  <img src="https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80">
+                  <h5 class="contador"> 4 / 5 <h5>
+                  <img src="imagens/robotica_2.jpg">
                   <div class="titulo">
-                      <h2> Imagem 4 </h2>
+                      <h2> Curso de Robótica </h2>
                       <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
                   </div>
               </div>
+
+              <div class="carousel-item">
+                <h5 class="contador"> 5 / 5 <h5>
+                <img src="imagens/curso_design.jpg">
+                <div class="titulo">
+                    <h2> Curso de Designer </h2>
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                </div>
+            </div>
           </div> <!-- Fecha elementos dentro do carrossel -->
         
           <!--   Controladores | Botões -->
@@ -108,9 +118,18 @@
     </section>
 
     <section id="sobre" class="hidden">
-
-      <div>TEXTO SOBRE</div>
-      
+      <div class="sobre-nos">
+        <h1 class="titulo-principal">
+          <span class="titulo_sobre">Sobre a of.course</span>
+        </h1>
+        <div>
+          <h2 class="sobre_chamada">A of.course tem o maior ensino em tecnologia e temos como missão transformar vidas e carreiras.</h2>
+          <p class="descricao_sobre">
+            Sabemos que o trabalho em tecnologia mudou e está cada vez mais sofisticado. Se especializar em desenvolvimento de software não basta para ser um bom dev. 
+            Para realmente entregar resultados é necessário que, além de aprofundar e mergulhar de cabeça na sua área, você também navegue em outras vertentes de tecnologia.
+          </p>
+        </div>
+      </div>
     </section>
 
     <section id="contato" class="hidden">
