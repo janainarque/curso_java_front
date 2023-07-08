@@ -1,146 +1,169 @@
 <!DOCTYPE html>
 <html LANG="pt-br">
-
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CURSOS</title>
-
     <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
 
-    <!-- Script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- <script src="./js/bootstrap.js"> </script> -->
-    <script src="js/principal.js"></script>
-
+    <script src="js/script.js"></script>
 </head>
 
 <body>
-  <header>
+  <div class="bgAnimation" id="bgAnimation">
+    <div class="backgroundAmim">
+    </div>
+  </div>
+  <div class="container">
     <nav>
+      <h1><span>ON</span>COURSE</h1>
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#carrossel-cursos">Cursos</a></li>
         <li><a href="#sobre">Sobre nós</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#carrossel-cursos">Cursos</a></li>
+        <li><a href="#matricula">Matricule-se</a></a></li>
       </ul>
     </nav>
-  </header>
-
- 
-
- 
-
-
-  <main>
-
-
-    <section id="home">
-        
-      <div class="logo">
-        <h1>of.course</h1>
+    <section>
+      <div class="textoHome">
+        <h1>Venha fazer parte do Time!</h1>
+        <p>Temos como missão transformar vidas e carreiras!<br>
+          <!-- Aprenda desenvolvimento Web desde o início com sessões de codificação ao vivo em seu notebook!</p> -->
+        </p>
+        <!-- <button class="homeBtn" style="--i:#fff;">CURSOS</button>
+        <button class="homeBtn" style="--i:#00bfff;">Matricule-se</button> -->
       </div>
-      
     </section>
-    
-            
-    <section id="carrossel-cursos" class="hidden">
+  </div>
 
-      <div id="carousel" class="carousel slide" data-ride="carousel">
-      
-        <ol class="carousel-indicators">
-              <li data-target="#carousel" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel" data-slide-to="1"></li>
-              <li data-target="#carousel" data-slide-to="2"></li>
-              <li data-target="#carousel" data-slide-to="3"></li>
-              <li data-target="#carousel" data-slide-to="4"></li>
-          </ol>
-      
-          <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <h5 class="contador"> 1 / 5 <h5>
-                  <img src="imagens/curso_java.jpg">
-                  <div class="titulo">
-                      <h2> Curso de Java </h2>
-                      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                  </div>
-              </div>
-      
-              <div class="carousel-item">
-                  <h5 class="contador"> 2 / 5 <h5>
-                  <img src="imagens/mobile.jpg">
-                  <div class="titulo">
-                      <h2> Curso de Mobile </h2>
-                      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                  </div>
-              </div>
-      
-              <div class="carousel-item">
-                  <h5 class="contador"> 3 / 5 <h5>
-                  <img src="imagens/publicidade.jpg">
-                  <div class="titulo">
-                      <h2> Curso de Publicidade e Propaganda </h2>
-                      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                  </div>
-              </div>
-        
-      
-              <div class="carousel-item">
-                  <h5 class="contador"> 4 / 5 <h5>
-                  <img src="imagens/robotica_2.jpg">
-                  <div class="titulo">
-                      <h2> Curso de Robótica </h2>
-                      <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                  </div>
-              </div>
-
-              <div class="carousel-item">
-                <h5 class="contador"> 5 / 5 <h5>
-                <img src="imagens/curso_design.jpg">
-                <div class="titulo">
-                    <h2> Curso de Designer </h2>
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                </div>
-            </div>
-          </div> <!-- Fecha elementos dentro do carrossel -->
-        
-          <!--   Controladores | Botões -->
-          <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only"> Previous </span>
-          </a>
-          <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          </a> 
-      </div> <!-- Fim do carrossel -->
-    </section>
-
-    <section id="sobre" class="hidden">
+  <div class="sobre">
+    <!-- SOBRE NÓS -->
+    <section id="sobre" class="section  hidden">
       <div class="sobre-nos">
         <h1 class="titulo-principal">
           <span class="titulo_sobre">Sobre a of.course</span>
         </h1>
-        <div>
-          <h2 class="sobre_chamada">A of.course tem o maior ensino em tecnologia e temos como missão transformar vidas e carreiras.</h2>
+        <div><br><br>
+          <h2 class="sobre_chamada">Sobre a On Course</h2><br><br>
           <p class="descricao_sobre">
-            Sabemos que o trabalho em tecnologia mudou e está cada vez mais sofisticado. Se especializar em desenvolvimento de software não basta para ser um bom dev. 
-            Para realmente entregar resultados é necessário que, além de aprofundar e mergulhar de cabeça na sua área, você também navegue em outras vertentes de tecnologia.
+            "Descubra o seu caminho para o sucesso com a On Course: Líder em Cursos Online de TI, Robótica, Publicidade, Design e muito mais!"
+            Seja bem-vindo à On Course, a plataforma de aprendizagem online que vai impulsionar a sua carreira na era digital! Aqui, nós acreditamos que o conhecimento é o combustível que o levará ao sucesso, e é por isso que oferecemos uma ampla variedade de cursos especializados nas áreas de TI, robótica, publicidade, design e muitas outras.
+            Na On Course, o seu futuro está em boas mãos. Nossos cursos são desenvolvidos por especialistas renomados em cada campo, garantindo que você receba o conhecimento mais atualizado e relevante. Independentemente do seu nível de experiência ou objetivo profissional, temos o curso perfeito para você.
+            Com a flexibilidade dos cursos online, você pode aprender no seu próprio ritmo, adaptando o horário de estudos de acordo com a sua rotina. Através de uma plataforma intuitiva e fácil de usar, você terá acesso a aulas interativas, materiais complementares e atividades práticas que vão solidificar o seu aprendizado.
+            Além disso, na On Course, sabemos que o networking é essencial para o crescimento profissional. Por isso, oferecemos comunidades online e fóruns exclusivos para os alunos, onde você poderá interagir com outros estudantes, compartilhar conhecimentos e estabelecer conexões valiosas.
+            Não perca tempo e embarque agora mesmo na jornada rumo ao sucesso com a On Course! Descubra as infinitas possibilidades que a tecnologia e a criatividade podem oferecer à sua carreira. Estamos aqui para ajudá-lo a alcançar seus objetivos e tornar seus sonhos realidade.
+            Comece hoje mesmo e trilhe o caminho do sucesso com a On Course, a sua parceira de aprendizagem confiável e inovadora.
           </p>
         </div>
       </div>
     </section>
+  </div><br><br><br>
+  <div classe="carrossel">
+      <!-- CARROSSEL DE IMAGENS - CURSOS -->        
+      <section id="carrossel-cursos" class="section hidden">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+        
+          <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+                <li data-target="#carousel" data-slide-to="3"></li>
+                <li data-target="#carousel" data-slide-to="4"></li>
+            </ol>
+        
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h5 class="contador"> 1 / 5 <h5>
+                    <img src="imagens/curso_java.jpg">
+                    <div class="titulo">
+                        <h2> Curso de Java </h2>
+                        <p> Um curso de Java ensina os fundamentos da linguagem de programação Java, incluindo variáveis, estruturas de controle e classes. Os alunos aprendem a desenvolver
+                          e a aplicar conceitos avançados, como herança e tratamento de exceções. O curso capacita os alunos a criar programas Java funcionais e a progredir para projetos mais complexos. </p>
+                    </div>
+                </div>
+        
+                <div class="carousel-item">
+                    <h5 class="contador"> 2 / 5 <h5>
+                    <img src="imagens/mobile.jpg">
+                    <div class="titulo">
+                        <h2> Curso de Mobile </h2>
+                        <p> Um curso de desenvolvimento mobile é um programa de aprendizado que visa capacitar os alunos a criar aplicativos móveis. O curso abrange o desenvolvimento de aplicativos 
+                          para dispositivos Android e iOS, incluindo conceitos de interface de usuário, integração de APIs e armazenamento de dados. Os alunos aprendem a utilizar as principais ferramentas 
+                          e frameworks, como Android Studio e Xcode, e desenvolvem habilidades práticas para criar aplicativos móveis funcionais. </p>
+                    </div>
+                </div>
+        
+                <div class="carousel-item">
+                    <h5 class="contador"> 3 / 5 <h5>
+                    <img src="imagens/publicidade.jpg">
+                    <div class="titulo">
+                        <h2> Curso de Publicidade e Propaganda </h2>
+                        <p> Um curso de Publicidade e Propaganda é um programa de estudo que visa fornecer aos alunos conhecimentos sobre estratégias de comunicação e marketing. Os alunos aprendem 
+                          a criar campanhas publicitárias, desenvolver estratégias de branding e utilizar diferentes canais de mídia. O curso também aborda aspectos criativos, como redação publicitária 
+                          e design gráfico, preparando os alunos para trabalhar na indústria da publicidade e propaganda. </p>
+                    </div>
+                </div>
+          
+        
+                <div class="carousel-item">
+                    <h5 class="contador"> 4 / 5 <h5>
+                    <img src="imagens/robotica_2.jpg">
+                    <div class="titulo">
+                        <h2> Curso de Robótica </h2>
+                        <p> Um curso de robótica é um programa de aprendizado que abrange os fundamentos da construção e programação de robôs. Os alunos aprendem sobre eletrônica, mecânica e codificação 
+                          para criar robôs funcionais. O curso enfoca conceitos como sensores, atuadores, controle e lógica de programação, proporcionando aos alunos habilidades práticas para projetar e programar robôs autônomos. </p>
+                    </div>
+                </div>
+  
+                <div class="carousel-item">
+                  <h5 class="contador"> 5 / 5 <h5>
+                  <img src="imagens/curso_design.jpg">
+                  <div class="titulo">
+                      <h2> Curso de Designer </h2>
+                      <p> Um curso de design é um programa de estudo que capacita os alunos a desenvolver habilidades criativas e técnicas no campo do design. Os alunos aprendem princípios de design, como composição, cores, tipografia e layout, 
+                        além de utilizar ferramentas e software de design gráfico. O curso abrange diferentes áreas, como design de interfaces, design de produtos e design de comunicação, preparando os alunos para carreiras criativas na indústria do design. </p>
+                  </div>
+              </div>
+            </div> <!-- Fecha elementos dentro do carrossel -->
+          
+            <!--   Controladores | Botões -->
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"> Previous </span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a> 
+        </div> <!-- Fim do carrossel -->
+      </section>
+  </div>
+  <div class="matricula">
+    <!-- MATRICULA -->
+    <section id="matricula" class="section  hidden">
 
-    <section id="contato" class="hidden">
-
-      <div>TEXTO contato</div>
+      <div class="card">
+        <h2 style="text-align: center;">Matricule-se</h2><br>
+        <form id="matriculaForm">
+          <input type="text" name="nome" placeholder="Nome completo" required>
+          <input type="text" name="cpf" placeholder="CPF" required>
+          <input type="email" name="email" placeholder="E-mail" required>
+          <input type="tel" name="celular" placeholder="Celular" required>
+          <button type="submit" class="homeBtn" style="--i:#fff;">Enviar</button>
+        </form>
+      </div>
       
+
+
     </section>
+  </div>
 
 
 
-</main>
+  
+
+
 
 </body>
 
