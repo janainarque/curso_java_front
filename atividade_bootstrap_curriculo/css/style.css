@@ -1,7 +1,7 @@
-:root {
+  :root {
     --preto:   rgb(88, 88, 90);
     --cinza:   rgb(231, 231, 233);
-    --amarelo: rgb(255, 202, 8);
+    --azul:    rgb(247 181 245 / 74%);
   }
   
   body {
@@ -14,15 +14,15 @@
     height: 256px;
     margin: 0 auto;
     border-radius: 50%;
-    border: 5px solid var(--amarelo);
-    background: url(../imagens/avatar.png);
+    border: 5px solid var(--azul);
+    background: url(../imagens/avatar.jpg);
   }
   
   .cabecalho {
     color: var(--white);
     padding: 10px 0 10px 0;
     background-color: var(--preto);
-    border-bottom: 5px solid var(--amarelo);
+    border-bottom: 5px solid var(--azul);
   }
   
   h1 + h3 {
@@ -31,8 +31,8 @@
   
   .cabecalho hr {
     height: 5px;
-    color: var(--amarelo);
-    background-color: var(--amarelo);
+    color: var(--azul);
+    background-color: var(--azul);
   }
 
 
@@ -95,14 +95,14 @@
   }
   
   .progress-bar {
-    background-color: var(--amarelo);
+    background-color: var(--azul);
   }
   
   .contato {
     font-weight: bold;
     text-align: center;
     color: var(--preto);
-    background-color: var(--amarelo);
+    background-color: var(--azul);
   }
   
   .contato label {
@@ -131,8 +131,8 @@
   .centralbar label {
     margin-bottom: 0;
     font-weight: bold;
-    padding-left: 50px;
-    padding-right: 50px;
+    display: block;
+    text-align: center;
   }
 
   .content {
